@@ -20,3 +20,4 @@ public class OauthUser extends User {
     @Column(name = "oauth_id", nullable = false, length = 50, unique = true)
     private String oauthId;
 }
+
