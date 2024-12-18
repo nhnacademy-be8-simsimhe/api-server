@@ -4,6 +4,11 @@ spring:
     password: Tevroz4D$uFN2tYQ
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://133.186.241.167:3306/project_be8_simsimhe_book_store?useSSL=false&serverTimezone=UTC&characterEncoding=UTF-8
+  cloud:
+    discovery:
+      enabled: true
+
+
 #    dbcp2:
 #      initial-size: 20
 #      max-idle: 30
